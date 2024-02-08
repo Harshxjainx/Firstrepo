@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harsh Jain - Portfolio</title>
+    <link rel="stylesheet" href="your-css-file-name.css" type="text/css">
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Harsh Jain
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          harsh@harshmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <b class="topmenu" href="Skills" >Skills</b>
+          <c class="topmenu" href="Projects" >Projects</c>
+          <d class="topmenu" href="Recommendation" >Recommendation</d>
+
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://www.louisvillehondaworld.com/static/dealer-12017/side_hustle/90803-hero1-v3.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Harsh Jain! <img src="https://th.bing.com/th/id/OIP.PW8LdqY8O2qOoBZGhelP1QHaHt?rs=1&pid=ImgDetMain" width="60px"/>
+          </h1>
+          <p>
+            I am a full stack developer with almost 3 months of experience
+            in both application and presentation layers. I have worked
+            on applications and microservices deployed on IBM Cloud. I look
+            forward to gaining more experience in the future.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+        <div class="skill">
+          <img src="https://codeprogramming.org/wp-content/uploads/2022/01/C-Logo.wine_.png"/>
+          <h6>C++</h6>
+          <p>1 year of experience</p>
+        </div>
+        
+        <div class="skill">
+          <img src="https://th.bing.com/th/id/OIP.TxhhfBEcMkCAnb7Jt7X-ZQAAAA?rs=1&pid=ImgDetMain"/>
+          <h6>JSX</h6>
+          <p>2 years of experience</p>
+        </div>
+        
+        <div class="skill">
+          <img src="https://brandslogos.com/wp-content/uploads/images/large/python-logo.png"/>
+          <h6>Python</h6>
+          <p>1 year of experience</p>
+        </div>
+         
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>E-commerce Website development</h3>
+            <ul>
+              <li>Developed a secure website with an intuitive user interface. </li>
+                <li>Developed a payment processing system for that Website.</li>
+                <li>Integrated a product management system.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Social Media Analytics Tool</h3>
+            <ul>
+              <li>Collected data from various social media platforms.</li>
+              <li>Then processed the data which involves working with APIs and data storage.</li>
+              <li>Visualizing this data helps users gain insights into trends and user engagement, making it an excellent tool.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Expense Tracker</h3>
+            <ul>
+              <li>Developed features for expense tracking and categorization.</li>
+              <li>Generated budget reports with visualization.</li>
+              <li>The Tracker helps user manage their expenses effectively, highlighting the importance for finance literacy in personal
+                 finance.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Harsh is a very quick learner and quickly grasps key concepts of Web development. 
+          He's got a great attitude & he is an excellent team player. 
+          He has a curious mind and asks the right question. 
+          He takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Harsh has been an awesome experience. 
+          He is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need his expertise I would definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Jane during the initial phase of our venture which needed Web development. 
+          She is a committed resource who has in depth knowledge about the domain. 
+          She will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="showPopup(true); addRecommendation()" >Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you blah blah for your recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
